@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* ######### UTILITY CLASS #######  */
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+/*  Header Style */
+
+.nav-btn {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    list-style-type: none;
+    padding: 10px;
+    background-color: #e0e0e0;
+
+}
+
+.nav-btn>li {
+    padding-inline: 10px;
+}
+
+.main-heading {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e0e0e0;
+    padding: 20px;
+    background-image: url(../img/Landing\ Page\ Img.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.list-category {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 30px;
+}
+
+.heading-category {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+footer {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.links ul {
+    list-style-type: none;
+    color: #e0e0e0;
+}
+
+.links ul li {
+    padding-block: 20px;
+
+}
+
+.About-use h3 {
+    padding-block: 20px;
+}
